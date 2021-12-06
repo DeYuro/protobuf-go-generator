@@ -1,7 +1,5 @@
 # Protobuf -> golang grpc *pb files converter
 
----
-
 ## How to use
 ```
 git submodule update --init
