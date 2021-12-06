@@ -1,0 +1,3 @@
+[submodule "input/stubproto"]
+	path = input/stubproto
+	url = https://github.com/DeYuro/stubproto

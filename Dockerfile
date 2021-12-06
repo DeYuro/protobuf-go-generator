@@ -3,7 +3,10 @@ FROM golang:1.17
 # Common
 RUN : \
     && apt-get update -y \
-    && mkdir /input
+    && mkdir /input \
+    && mkdir -p /home/generator \
+    && chmod 777 /home/generator
+
 
 # Install protobuf compiler
 RUN : \
@@ -23,6 +26,5 @@ RUN : \
     && cd src/generator \
     && go mod init \
     && go install
-
 
 ENTRYPOINT ["generator"]
