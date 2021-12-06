@@ -1,8 +1,8 @@
-#Protobuf -> golang grpc *pb files converter
+# Protobuf -> golang grpc *pb files converter
 
 ---
 
-##How to use
+## How to use
 ```
 git submodule update --init
 docker build --tag generator .
@@ -22,7 +22,7 @@ The example api in the submodules deliberately does not have `options go_package
 If the **proto file** has `options go_package`, then there will be no changes for it. However, if there are files with `options go_package` and without it at the same level, this will entail the generation of files in the same directory with different packages name.
 
 
-> ##NOTE:
+> ## NOTE:
 > 
 > It is assumed that the API has a valid structure, even if the guidelines are violated 
 >
