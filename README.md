@@ -1,4 +1,4 @@
-# Protobuf -> golang grpc *pb files converter
+# Protobuf -> golang grpc *pb files generator
 
 ## How to use
 ```
